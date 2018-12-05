@@ -10,13 +10,13 @@ yarn add iconfont-json
 ```
 
 
-生成json文件
+生成json文件
 
 ```sh
-iconfont [ iconfont.ttf ] [ jsonfile.json ]
+iconfont [ iconfont.ttf ] [ jsonfile.json ]
 ```
 
-或者配置到**package.json**文件的scripts命令中
+或者配置到 **package.json** 文件的 scripts 命令中
 
 ```javascript
   "scripts": {
@@ -25,14 +25,14 @@ yarn add iconfont-json
   }
 ```
 
-如果需要再代码中使用,也可以直接引入
-
+如果需要再代码中使用,也可以直接引入
+
 ```javascript
 var Iconfont = require("iconfont-json");
-
-var iconfont = new Iconfont()
+
+var iconfont = new Iconfont()
 // 导出json
-iconfont.export_json("iconfont.ttf","iconfont.json")
+iconfont.export_json("iconfont.ttf","iconfont.json")
 ```
 
 
