@@ -16,7 +16,7 @@ yarn add iconfont-json
 iconfont [ iconfont.ttf ] [ jsonfile.json ]
 ```
 
-或者配置到 **package.json** 文件的 scripts 命令中
+或者配置到 **package.json** 文件的 scripts 命令中
 
 ```javascript
   "scripts": {
