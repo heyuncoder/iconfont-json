@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+var shell = require("shelljs");
+var Iconfont = require("./index.js");
+
+var arg1 = process.argv[2];
+var arg2 = process.argv[3];
+var iconfont = new Iconfont()
+iconfont.export_json(arg1,arg2)
